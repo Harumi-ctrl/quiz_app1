@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".terms">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="
+            terms of services
+            Article 1 (Definition) The definitions of terms used in this agreement are as follows. (1) This service Services operated by the Company and related services (2) This site The website on which the contents of this service are posted (3) This content The characters, sounds, still images, videos, etc. provided on this service Generic term for software programs, codes, etc. (including posted information) Article 2 (Agreement to these Terms) 1. The user shall be able to use this service after agreeing to these Terms of Use. 2. When the user downloads this service to a smartphone or other information terminal and performs the procedure for agreeing to this agreement, a usage contract in accordance with the provisions of this agreement is established between the user and the Company. Shall be. 3 If the user is a minor, please use this service after obtaining the consent of the parent or guardian or other legal representative. 4 If a minor user uses this service by pretending that he / she has consent without the consent of a legal agent or by pretending that he / she is an adult, he / she will believe that he / she is a person with other ability to act. If you use fraud, you cannot revoke any legal act related to this service. 5 If a user who was a minor at the time of agreeing to this agreement uses this service after reaching the age of majority, the user is deemed to have confirmed all legal acts related to this service. Article 3 (Change of Terms) 1. The Company shall be able to revise the contents of these Terms at any time without obtaining the consent of the user, and the user shall consent to this without objection. 2. When we revise this agreement, we will notify the user of the contents by the method prescribed by us. Article 5 (Account Management) 1. The user is free to use the information registered at the time of use (hereinafter referred to as , including e-mail address, ID, password, etc.) at his / her own risk. It shall be registered and managed. The user shall not allow a third party to use this, or lend, transfer, change the name, buy or sell, etc. 2. If the service is used by the registered information, the Company can treat it as the one used by the person who registered the use, and for the result caused by the use and all the responsibilities associated therewith, please register the use. It shall belong to the person who went. Article 6 (Handling of personal information, etc.) Personal information and user information will be handled appropriately in accordance with the Privacy Policy separately set by the Company. Article 7 (Prohibited Acts) When using this service, the Company prohibits the following acts from users. If we find that the user has violated the prohibited items, we can suspend the use, withdraw from the membership, or take other measures that we deem necessary. (1) Acts that infringe the intellectual property rights of the Company or a third party (2) Acts that damage the honor or credibility of the Company or a third party or unfairly discriminate or injure (Omitted) (11) In addition to the above Actions that the Company deems inappropriate Article 8 (Disclaimer) 1. The Company shall not be liable for any damages caused by changes, interruptions, or terminations of this service. 2. Our company does not take any responsibility for the usage environment of this service of the user. (Omitted) 9. The provisions of paragraph 1 to the preceding paragraph do not apply if the Company has intentional or gross negligence, or if the contract falls under the consumer contract law. 10. Even if the preceding paragraph applies, the Company shall be liable for any damages caused by special circumstances among the damages caused to the user due to the act of negligence (excluding gross negligence). I will not bear it. 11. If the Company is liable for damages related to the use of this service, it shall be liable for damages up to the usage amount received from the user in the month in which the damage occurred. Article 9 (Regarding the placement of advertisements) The user understands and consents to the fact that all advertisements may be included in this service and that the Company or its affiliates may place all advertisements. It is considered as. The form and scope of advertisements on this service may be changed by us from time to time. Article 12 (How to contact us) For inquiries and inquiries from users regarding this service to us, please send from the inquiry form set up at an appropriate place in this service or the website operated by our company. It shall be done by the method specified separately by our company. Article 15 (Governing Law, Court of Jurisdiction) 1. The validity, interpretation and performance of this Agreement shall be governed by and construed in accordance with Japanese law. 2. For discussions, proceedings and all other disputes between the Company and users, the Tokyo Summary Court or the Tokyo District Court shall be the exclusive agreement jurisdiction court, depending on the amount of the complaint."
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="◆ Introduction
+The privacy policy (hereinafter referred to as ) stipulates the following regarding the handling of personal information.
+
+The following privacy policy describes the acquisition, use and management of personal information. When using the service
+Please read the privacy policy
+I hope you understand.
+
+◆ Acquisition of personal information
+This service may collect personal information (name, address, e-mail address, telephone number, and other personally identifiable information) of all users.
+
+◆ Use of personal information
+The acquired personal information will be used for the following purposes.
+(1) Providing services that meet user needs
+(2) Marketing related to service improvement
+(3) Identity verification when sending materials, etc.
+
+◆ Safety management of personal information
+Regarding the management of personal information, the Group conducts education and training by a third-party organization once a quarter for all employees and officers.
+In addition, we have established personal information protection regulations in our company rules and strictly check on-site management.
+
+◆ Prohibition of disclosure / provision to third parties
+Basically, personal information will not be provided to third parties, but it may be provided in accordance with laws and regulations in accordance with each item of Article 23, Paragraph 1 of the Act on the Protection of Personal Information.
+
+◆ Modification and review
+Personal information will be reviewed from time to time in response to changes in laws and regulations. "
+            />
+
+
+       </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
